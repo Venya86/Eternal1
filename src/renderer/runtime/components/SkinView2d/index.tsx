@@ -6,10 +6,12 @@ import { getUserData } from '../../../utils';
 interface SkinView2dProps {
     width: number;
     height: number;
+    borderRadius: string;
 }
 export const SkinView2d = ({
     width = 64,
     height = 64,
+    borderRadius = '',
 }: SkinView2dProps) => {
     const skinHeadRef = useRef() as MutableRefObject<HTMLDivElement>;
 
@@ -25,6 +27,7 @@ export const SkinView2d = ({
             skinUrl: skinUrl ?? defaultSkin,
             width: width,
             height: height,
+            borderRadius: borderRadius,
         });
     };
 
@@ -32,7 +35,7 @@ export const SkinView2d = ({
     return (
         <div
             ref={skinHeadRef}
-            style={{ maxWidth: `${width}px`, maxHeight: `${height}px` }}
+            style={{ maxWidth: `${width}px`, maxHeight: `${height}px`, borderRadius: `${borderRadius}px`}}
         />
     );
 };

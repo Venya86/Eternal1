@@ -1,6 +1,6 @@
 {
-    "name": "aurora-launcher-app",
-    "version": "0.0.5-dev",
+    "name": "eternal-launcher-app",
+    "version": "0.0.1-dev",
     "description": "Launcher for Minecraft",
     "main": "out/main/index-obf.loader.js",
     "private": true,
@@ -81,15 +81,15 @@
         }
     },
     "build": {
-        "appId": "ru.aurora.launcher",
-        "productName": "Aurora Launcher",
+        "appId": "ru.eternal.launcher",
+        "productName": "Eternal Launcher",
         "electronLanguages": [
             "en-US"
         ],
         "publish": [
             {
                 "provider": "generic",
-                "url": "http://127.0.0.1:1370/files/release",
+                "url": "http://91.107.120.103:1370/files/release",
                 "channel": "latest"
             }
         ],

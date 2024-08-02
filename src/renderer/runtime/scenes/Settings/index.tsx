@@ -147,32 +147,19 @@ export default function Settings() {
             <If state={info}>
                 <div className={classes.options}>
                     <div className={classes.logo}>
-                        <img src={logo} alt="Aurora Launcher" />
+                        <img src={logo} alt="Eternal Launcher" />
                     </div>
                     <div className={classes.launcherName}>
                         <center>
-                            <h1>AuroraLauncher</h1>
+                            <h1>Eternal launcher</h1>
                         </center>
                     </div>
                     <div className={classes.icons}>
+
                         <button
                             onClick={() =>
                                 launcherAPI.window.openExternal(
-                                    'https://www.youtube.com/@AuroraTeamRu',
-                                )
-                            }
-                        >
-                            <svg width="35" height="35" viewBox="0 0 32 32">
-                                <path
-                                    d="M29.398 5.928c-0.867-0.624-3.283-1.453-13.406-1.453-10.848 0-12.458 0.952-12.975 1.264-2.749 1.652-3.010 8.963-3.034 10.445 0.033 1.958 0.349 8.473 3.032 10.084 0.515 0.311 2.116 1.257 12.976 1.257 10.13 0 12.543-0.825 13.406-1.447 2.343-1.686 2.612-7.49 2.619-9.92-0.006-1.954-0.211-8.496-2.619-10.23zM28.23 24.456c-0.349 0.251-2.35 1.069-12.239 1.069-9.56 0-11.566-0.742-11.945-0.971-0.965-0.579-1.984-3.652-2.063-8.376 0.079-4.713 1.111-8.153 2.066-8.726 0.38-0.229 2.393-0.977 11.943-0.977 9.881 0 11.887 0.824 12.239 1.076 0.857 0.617 1.773 3.865 1.787 8.613-0.014 4.823-0.936 7.678-1.787 8.291zM22.513 15.213l-8.998-5.522c-0.309-0.187-0.695-0.191-1.008-0.014-0.315 0.178-0.509 0.511-0.509 0.871v11.045c0 0.36 0.194 0.694 0.509 0.871 0.152 0.086 0.322 0.129 0.491 0.129 0.178 0 0.358-0.048 0.516-0.143l8.998-5.524c0.3-0.181 0.483-0.506 0.483-0.856s-0.183-0.676-0.483-0.857zM13.999 19.822v-7.503l6.063 3.751z"
-                                    fill="white"
-                                />
-                            </svg>
-                        </button>
-                        <button
-                            onClick={() =>
-                                launcherAPI.window.openExternal(
-                                    'https://discord.gg/2NvYTcv',
+                                    'https://discord.gg/3ZjhZDbt',
                                 )
                             }
                         >
@@ -183,7 +170,7 @@ export default function Settings() {
                                 />
                             </svg>
                         </button>
-                        <button
+                        {/* <button
                             onClick={() =>
                                 launcherAPI.window.openExternal(
                                     'https://aurora-launcher.ru/',
@@ -196,21 +183,7 @@ export default function Settings() {
                                     fill="white"
                                 />
                             </svg>
-                        </button>
-                        <button
-                            onClick={() =>
-                                launcherAPI.window.openExternal(
-                                    'https://github.com/AuroraTeam/AuroraLauncher',
-                                )
-                            }
-                        >
-                            <svg width="35" height="35" viewBox="0 0 48 48">
-                                <path
-                                    d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5"
-                                    fill="white"
-                                />
-                            </svg>
-                        </button>
+                        </button> */}
                     </div>
                     <div className={classes.version}>
                         <h5>Версия лаунчера: {version}</h5>

@@ -12,7 +12,9 @@ interface SkinViewer2DOptions {
   skinUrl: string
   width?: number
   height?: number
+  borderRadius?: string
   toRender?: string
+  
 }
 
 class SkinViewer2D {
@@ -40,6 +42,10 @@ class SkinViewer2D {
 
     if (options.height !== undefined) {
       this.canvas.height = options.height
+    }
+
+    if (options.borderRadius !== undefined) {
+      this.canvas.style.borderRadius = options.borderRadius
     }
 
     if (options.toRender !== undefined) {

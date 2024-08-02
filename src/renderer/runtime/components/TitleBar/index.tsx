@@ -73,7 +73,7 @@ export default function TitleBar() {
             <div>
                 <If state={username.length > 0}>
                     <div className={classes.user}>
-                        <SkinView2d width={25} height={25} />
+                        <SkinView2d width={25} height={25} borderRadius={'5px'}/>
                         <div
                             className={[classes.username, classes.text].join(
                                 ' ',

@@ -7,59 +7,59 @@ export const window = {
     resizable: false,
     maximizable: false,
     fullscreenable: false,
-    title: 'Aurora Launcher',
+    title: 'Eternal Launcher',
 };
 
 export const api = {
-    ws: 'ws://127.0.0.1:1370/ws',
-    web: 'http://127.0.0.1:1370',
+    ws: 'ws://91.107.120.103:1370/ws',
+    web: 'http://91.107.120.103:1370',
     publicKey,
 };
 
-export const appPath = '.aurora-launcher';
+export const appPath = '.eternal-launcher';
 
 export const discordRPC = {
-    appId: '1214685301793103902',
+    appId: '1268925763550187574',
     default: {
-        firstLineText: 'Тестирую лаунчер',
-        secondLineText: 'Чувак, ты думал здесь что-то будет?',
+        firstLineText: 'Играю на проекте Eternal',
+        secondLineText: 'Присоединяйся к нам!',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Discord',
+                url: 'https://discord.gg/3ZjhZDbt',
             },
         ],
-        largeImageKey: 'logo',
-        smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
-        smallImageText: 'Minecraft',
+        largeImageKey: 'icon',
+        smallImageKey: '',
+        largeImageText: 'Eternal Launcher',
+        smallImageText: '',
     },
     profile: {
-        firstLineText: 'Выбираю тестируемый профиль игры',
+        firstLineText: 'Выбираю профиль игры',
         secondLineText: 'Загружаю {server}',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Discord',
+                url: 'https://discord.gg/3ZjhZDbt',
             },
         ],
-        largeImageKey: 'logo',
-        smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
-        smallImageText: 'Minecraft',
+        largeImageKey: 'icon',
+        smallImageKey: '',
+        largeImageText: 'Eternal Launcher',
+        smallImageText: '',
     },
     game: {
-        firstLineText: 'Играю на тестовом сервере',
-        secondLineText: 'Играю за {nickname}',
+        firstLineText: 'Играю на сервере',
+        secondLineText: 'Играю под ником {nickname}',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Discord',
+                url: 'https://discord.gg/3ZjhZDbt',
             },
         ],
-        largeImageKey: 'logo',
-        smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
-        smallImageText: 'Minecraft',
+        largeImageKey: 'icon',
+        smallImageKey: '',
+        largeImageText: 'Eternal Launcher',
+        smallImageText: '',
     }
 };
